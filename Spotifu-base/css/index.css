@@ -1,7 +1,9 @@
 @import './icons.css';
 @import './fonts.css';
 @import './body.css';
-@import './links.css';
+@import './link.css';
+@import './button-icon.css';
+@import './logo.css';
 
 :root { 
   --primary: #00b050; 
