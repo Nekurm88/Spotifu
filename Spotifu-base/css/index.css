@@ -4,6 +4,7 @@
 @import '../font/AvenirLTStd-Black.otf';
 @import '../font/AvenirLTStd-Book.otf';
 @import '../font/AvenirLTStd-Roman.otf';
+@import './icons.css';
 
 @font-face {
   font-family: 'Avenir';
@@ -33,6 +34,16 @@
 
 body {
   font: var(--basefont-normal);
+  background-color: var(--primary);
+}
+
+button {
+  font-size: 40px;
+  color: green;
+}
+
+button:hover {
+  color: black;
 }
 
 h1{
