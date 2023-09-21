@@ -6,17 +6,14 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './player.css';
-@import './playlist-a.css';
-@import './playlist-b.css';
-@import './playlist-list.css';
-@import './search.css';
-@import './navigation.css';
-@import './header.css';
-@import './sticky.css';
+@import './layout.css';
+@import './page.css';
+@import './scrollbar.css';
+
 
 
 :root { 
-  font-size: 16px;
+  font-size: 14px;
   --primary: #00b050; 
   --white: #ffffff; 
   --gray10: #b3b3b3; 
@@ -33,3 +30,16 @@
   --button: bold 0.875rem/1rem var(--basefontFamily); 
   --small: normal .75em/normal var(--basefontFamily); 
 }
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  :root {
+    font-size: 18px;
+  }
+}
+  
